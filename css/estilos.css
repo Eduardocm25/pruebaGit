@@ -1,0 +1,41 @@
+body{
+    background-color: antiquewhite;
+}
+/* propiedades padre*/
+.grid{
+    background-color: darkgoldenrod;
+    width: 80%;
+    height: 800px;
+    padding: 20px;
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns:10% 90%;
+    grid-template-rows:10% 30% 20% auto ;
+
+
+    /* propiedad para alinear el contenido de manera horizontal */
+    justify-content: stretch;
+
+    /* alinear verticalmente*/
+    align-content:center;
+
+}
+
+
+
+
+
+.caja{
+    width: auto;
+    height: 100px;
+    border: 4px solid black;
+    background-color: coral;
+    text-align: center;
+
+    justify-self: stretch;
+
+    align-self:center;
+
+
+}
+   
